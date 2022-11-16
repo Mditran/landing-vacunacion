@@ -1,0 +1,22 @@
+.dividir {
+  display: flex;
+  justify-content: left;
+}
+.izquierda {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.centrar {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.derecha {
+  width: 50%;
+}
+.tamaño-imagen {
+  width: 100%;
+  height: 100%;
+}
