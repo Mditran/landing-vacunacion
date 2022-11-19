@@ -10,10 +10,33 @@
   justify-content: center;
   align-items: center;
   height: 70vh;
+  margin-top: 30px;
 }
 
 .container {
-  width: 400px;
+  width: 100%;
+}
+.ordenar-ico {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ordenar-ico1 {
+  display: flex;
+  align-items: center;
+}
+.icono {
+  width: 24px;
+  height: 24px;
+}
+.icono1 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.espacio {
+  margin-right: 10px;
 }
 
 .accordion {
@@ -22,9 +45,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
-  color: #ffffff;
+  color: #489ff5;
   text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-  background-color: #009999;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -38,24 +60,61 @@
 
 .active,
 .accordion:hover {
-  background-color: #008989;
+  border-color: #008989;
+  border-style: solid;
 }
 
 .panel {
-  font-family: "Kufam";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   padding: 0 18px;
-  background-color: #326f6f;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
-  color: #ffffff;
 }
 
 .panel p {
   padding: 20px 0 20px 0;
+}
+.panel1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+.panel1 p {
+  padding: 0;
+  margin-left: 20px;
+}
+.active .panel1 {
+  height: 300px;
+}
+.boton1 {
+  height: 30px;
+  width: 100px;
+  background-color: #489ff5;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.boton2 {
+  height: 30px;
+  width: 80px;
+  background-color: #489ff5;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.order {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .active .panel {
@@ -74,8 +133,8 @@
   flex-direction: column;
 }
 .centrar {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .derecha {
   width: 50%;
@@ -83,4 +142,9 @@
 .tamaño-imagen {
   width: 100%;
   height: 100%;
+}
+
+.centrar1 {
+  margin-left: 10%;
+  margin-right: 10%;
 }
