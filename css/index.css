@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  color: #2b5f93;
 }
 
 .container-flex {
@@ -10,7 +11,7 @@
   justify-content: center;
   align-items: center;
   height: 70vh;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .container {
@@ -147,4 +148,132 @@
 .centrar1 {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.card {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card div {
+  margin: 40px;
+}
+.card div h3 {
+  font-size: x-large;
+}
+.card div p {
+  margin-top: 10px;
+  font-size: large;
+}
+.benefits {
+  width: 45%;
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+.benefits h2 {
+  font-size: xx-large;
+}
+.benefits p {
+  font-size: large;
+}
+.contar1 {
+  position: relative;
+  height: 200px;
+}
+.cortar2 {
+  position: relative;
+  height: 450px;
+  background-color: #2b5f93;
+  width: 100%;
+}
+
+.tamaño-imagen1 {
+  position: absolute;
+  width: 400px;
+  height: 540px;
+  margin-top: -2.2rem;
+}
+.agrandar1 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tam1 {
+  height: 470px;
+  margin-top: 100px;
+}
+
+.contardiv1 {
+  position: relative;
+  height: 30%;
+}
+.cortardiv2 {
+  position: relative;
+  height: 67%;
+  background-color: #2b5f93;
+  width: 100%;
+}
+
+.tamaño-imagen2 {
+  position: absolute;
+  width: 420px;
+  height: 560px;
+  margin-top: -5.7rem;
+  padding-right: 25px;
+}
+.flex-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordenar-ico2 {
+  display: flex;
+  align-items: center;
+}
+.espacio1 {
+  margin-right: 20px;
+}
+
+.boton3 {
+  height: 40px;
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.boton3:hover {
+  background-color: #489ff5;
+  color: white;
+  border-color: blue;
+  border-style: solid;
+}
+
+.ordenar2 {
+  display: flex;
+}
+
+.tam-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  font-size: larger;
+}
+.tam-card h4 {
+  font-size: x-large;
+}
+.quitar {
+  padding: 20px;
+  width: 100%;
+}
+.prueba2 {
+  margin-right: 80px;
 }
