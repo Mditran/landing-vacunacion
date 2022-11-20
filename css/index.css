@@ -14,6 +14,43 @@
   margin-top: 70px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+.titulo {
+  width: 30%;
+  font-size: xx-large;
+}
+.enlaces {
+  width: 60%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.enlaces ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.enlaces a {
+  text-decoration: none;
+}
+.boton4 {
+  height: 45px;
+  width: 140px;
+  margin-top: -1.5rem;
+  font-size: large;
+  background-color: #489ff5;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.boton4:hover {
+  border-color: #2b5f93;
+  border-style: solid;
+}
 .container {
   width: 100%;
 }
@@ -276,4 +313,54 @@
 }
 .prueba2 {
   margin-right: 80px;
+}
+
+.ordenar3 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.espacio1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.ordenar4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.espacio2 {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 50%;
+}
+
+.ordenar4 a {
+  color: grey;
+  text-decoration: none;
+}
+.ordenar4 h3 {
+  margin-bottom: 10px;
+}
+
+.ordenar3 p {
+  color: grey;
+}
+
+.otro {
+  width: 30%;
+}
+.otro h2 {
+  margin-bottom: 10px;
+}
+.espacio3 {
+  display: flex;
+  justify-content: start;
+  justify-items: flex-start;
+  margin-left: 15%;
+  width: 50%;
 }
